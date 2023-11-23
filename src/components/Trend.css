@@ -1,0 +1,65 @@
+.recent_container {
+    background-color: #EFF4FA;
+}
+
+.recent_container h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.recent_container button {
+    background-color: #3275db;
+    color: white;
+    padding: 20px;
+    margin-left: 45%;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    margin-bottom: 25px;
+}
+
+.all_card_course {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card_course {
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 22%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.card_course img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.card_course h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    width: 100px;
+    margin-left: 0;
+    margin-left: 10px;
+}
+
+.card_course h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.card_course p {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
