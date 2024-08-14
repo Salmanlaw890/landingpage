@@ -48,7 +48,7 @@ export default function Home() {
                 <div className="services">
                     <h1>Best IT Services Award 2023</h1>
                     <div className="achievement_content">
-                        <img className='image_person' src="https://ezitech.org/wp-content/uploads/2023/03/Screenshot-2023-03-02-at-11.57.27-AM-1-486x562.png" alt="img" width={200} height={300} />
+                       <div> <img className='image_person' src="https://ezitech.org/wp-content/uploads/2023/03/Screenshot-2023-03-02-at-11.57.27-AM-1-486x562.png" alt="img" width={200} height={300} /></div>
                         <div className="paragraphs">
                             <p><b>Ezitech Is affiliated With <span style={{ color: "blue" }}>Eziline Software House.</span></b> Eziline has been awarded the prestigious Best Software House in IT sector award by the President of Pakistan. This is an incredible achievement and a testament to the hard work and dedication of the entire team at Eziline Software House. The award is a great recognition of the company’s achievements in the field of IT and serves as a major milestone in its journey towards success.</p>
                             <p>This award is a huge source of motivation and inspiration for the entire team at Eziline Software House. <b>It is a validation of the company’s commitment to innovation, excellence, and customer satisfaction.</b> The award acknowledges the hard work and dedication of every member of the team who has contributed to the success of the company.</p>

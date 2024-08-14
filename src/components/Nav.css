@@ -34,6 +34,9 @@
 .icon {
     margin-right: 10px;
 }
+.align-it{
+    display: flex;
+}
 
 .user a {
     text-decoration: none;
@@ -129,3 +132,52 @@
 .drop_down_2 a {
     margin-top: 5px;
 }
+.dropdown{
+    display: none;
+}
+/* Mobile screen */
+@media only screen and (max-width: 600px) {
+    .top_header {
+        width: 100%;
+        background: #3275DB;
+        height: 80px;
+    }
+    .content_box {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: end;
+        margin-left: 5em;
+        width: 80%;
+    }
+    
+    .content {
+        color: white;
+        display: flex;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .align-it{
+        display: flex;
+    }
+   #first{
+    order: 1;
+   }
+   #second{
+    order: 2;
+   }
+   .nav_links{
+    display: none
+   }
+   .dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 8;
+    float: right;
+    height: 25%;
+    background: #E5E5FF;
+    border: none;
+   }
+
+
+  }

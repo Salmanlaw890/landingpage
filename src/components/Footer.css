@@ -101,3 +101,79 @@
     margin-top: 50px;
     margin-left: 30%;
 }
+/* Mobile screen */
+@media only screen and (max-width: 600px) {
+    .footer h1 {
+        margin-top: 25px;
+        margin-left: 5%;
+        width: 400px;
+    }
+    .footer .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .footer .content .about {
+        width: 80%;
+        margin: 10px 10px;
+    }
+    
+    
+    .footer .content .about h1 {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .footer .content .about p {
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .footer .content .popular_courses {
+        width: 80%;
+    }
+    .footer .content .popular_courses h1 {
+        margin-left: 39px;
+        width: 200px;
+        text-align: center;
+        margin-left: 100px;
+        font-size: 30px;
+    }
+    .footer .content .pages {
+        width: 80%;
+        margin-left: 40px;
+    }
+    .footer .content .pages h1 {
+        margin-left: 130px;
+        font-size: 30px;
+
+    }
+    .footer .content .pages .list {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .footer .contact_us {
+        width: 80%;
+    }
+    .footer .contact_us h1{
+        font-size: 30px;
+        margin-left: 150px;
+    }
+    .footer .contact_us .contact{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer .contact_us .contact_part .icon{
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .copy {
+        margin-top: 50px;
+        margin-left: 5ch;
+    }
+}

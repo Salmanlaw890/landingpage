@@ -44,7 +44,8 @@ export default function Footer() {
                 </div>
                 <div className="contact_us">
                     <h1>CONTACT</h1>
-                    <div className="content">
+                 <div className='contact_part'>
+                 <div className="content">
                         <div className="icon">
                             <FaPhone />  +92 3455555396
                         </div>
@@ -61,6 +62,7 @@ export default function Footer() {
                         </div>
 
                     </div>
+                 </div>
                 </div>
             </div>
             <div className="copy">

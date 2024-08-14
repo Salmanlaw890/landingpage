@@ -76,28 +76,31 @@
     display: flex;
     margin-left: -100px;
     margin-top: 25px;
+    overflow: auto;
 
 }
 
 .image_box a {
-    height: 60px;
+    width: 40rem;
 
 }
 
 .images_1 {
-    width: 250px;
+    width: 120px;
+    margin-left: 110px;
+    margin-top: 10px;
 }
 
 .images_2 {
-    width: 250px;
-    height: 40px;
-    margin-top: 5px;
-    margin-left: 30px;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 50px;
 }
 
 .images_3 {
-    width: 250px;
-    margin-top: -45px;
+    width: 190px;
+    margin-top: -30px;
+    margin-left: -10px;
 }
 
 /* after banner content */
@@ -123,7 +126,7 @@
     margin-top: 20px;
 }
 
-.achievement_conten .content {
+.achievement_content .content {
     color: black;
     height: 400px;
 }
@@ -203,7 +206,7 @@
     margin-top: 40px;
 }
 
-.container h6 {
+.trend_container h6 {
     font-size: 25px;
     margin-left: 35%;
     margin-bottom: 20px;
@@ -212,7 +215,7 @@
     text-align: center;
 }
 
-.container p {
+.trend_container p {
 
     margin-bottom: 20px;
     opacity: 0.5;
@@ -246,4 +249,133 @@
 
 .card h5 {
     margin-top: 20px;
+}
+
+/* Mobile screen */
+@media only screen and (max-width: 600px) {
+    .top_box {
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        width: 400px;
+        right: 5%;
+    }
+    
+    .top_content h1 {
+        color: #3275db;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    
+    .top_content p {
+        color: #3275db;
+        font-weight: 300;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .search-input {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+    .last_banner_text a {
+     display: none;
+    }
+    .last_banner_text {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .image_box {
+        display: flex;
+        margin-left: -100px;
+        margin-top: 25px;
+        overflow: auto;
+    
+    }
+    
+    .image_box a {
+        width: 50rem;
+    
+    }
+    
+    .images_1 {
+        width: 65px;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    
+    .images_2 {
+        width: 65px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    
+    .images_3 {
+        width: 100px;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+    .after_banner_content {
+        width: 100%;
+        height: auto;
+    }
+    .achievement_content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .image_person {
+        width: 300px;
+        height: 300px;
+        margin-left: 80px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .paragraphs {
+        margin-top: 20px;
+        width: 80%;
+        margin-left: 30px;
+    }
+    .how_it_works>p {
+        margin-left: 30%;
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .how_it_works .all_content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: start;
+        align-items: center;
+    
+    }
+    .how_it_works .all_content .contents h5 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        opacity: 0.7;
+        text-align: center;
+    }
+    
+    .how_it_works .all_content .contents p {
+        margin-bottom: 20px;
+        width: 100%;
+        opacity: 0.5;
+        text-align: start;
+        line-height: 26px;
+    }
+    .trend_container h6 {
+        font-size: 25px;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        opacity: 0.7;
+        width: 400px;
+        text-align: center;
+    }
+    
 }
